@@ -13,9 +13,12 @@ body {
     background-position: center;
     @media (min-width: 768px){
         background: url(../images/Virna_oblojka_home768.jpg) no-repeat;
+        background-position: top;
     }
     @media (min-width: 960px){
+        background: url(../images/Virna_oblojka_home960.jpg) no-repeat;
         background-position: top;
+        background-size: contain;
     }
     &__flex {
         display: flex;
@@ -33,6 +36,7 @@ body {
         }
         @media (min-width: 960px) {
             padding-left: 98px;
+            width: 48%;
         }
         &-logo {
             display: none;
@@ -131,7 +135,7 @@ body {
             padding-top: 27px;
         }
         @media (min-width: 960px) {
-            width: 24%;
+            width: 26%;
         }
         &-icon {
             margin-left: 13%;
@@ -164,7 +168,7 @@ body {
             @media (min-width: 768px) {
                 font-size: 16px;
                 margin-top: 102px;
-                margin-right: -49px;
+                margin-right: -29px;
             }
         }
         &__select {
