@@ -45,8 +45,9 @@ body {
             width: 53%;
         }
         @media (min-width: 960px) {
-            padding-left: 98px;
+            padding-left: 86px;
             width: 48%;
+            padding-top: 28px;
         }
         @media (min-width: 1440px) {
             padding-left: 139px;
@@ -79,7 +80,8 @@ body {
                 display: block;
             }
             @media (min-width: 960px) {
-                font-size: 48px;
+                font-size: 47px;
+                margin-top: 80px;
             }
             @media (min-width: 1440px) {
                 font-size: 71px;
@@ -116,7 +118,7 @@ body {
                 margin-right: 24px;
             }
             @media (min-width: 960px) {
-                padding-top: 118px;
+                padding-top: 165px;
             }
         }
         &-icons {
@@ -124,6 +126,9 @@ body {
             margin-left: 10px;
             @media (min-width: 768px) {
                 margin-left: -25px;
+            }
+            @media (min-width: 960px) {
+                margin-left: -24px;
             }
             & img {
                 margin-left: 19px;
@@ -139,6 +144,9 @@ body {
             margin-right: 71px;
             @media(min-width: 768px) {
                 display: inline-block;
+            }
+            @media(min-width: 960px) {
+                margin-right: 79px;
             }
             &::after {
                 content: url(../images/line.svg);
@@ -156,7 +164,7 @@ body {
             padding-top: 27px;
         }
         @media (min-width: 960px) {
-            width: 26%;
+            width: 23%;
         }
         @media (min-width: 1440px) {
             width: 31%;
@@ -171,6 +179,10 @@ body {
             @media (min-width: 768px) {
                 margin-left: 40%;
             }
+            @media (min-width: 960px) {
+                margin-left: 34%;
+                width: 54px;
+            }
         }
         &-text {
             font-weight: normal;
@@ -184,6 +196,11 @@ body {
                 font-size: 16px;
                 margin-top: 177px;
                 margin-right: -49px;
+            }
+            @media (min-width: 960px) {
+                font-size: 16px;
+                margin-top: 238px;
+                margin-right: -11px;
             }
             @media (min-width: 1440px) {
                 font-size: 15px;
@@ -201,6 +218,11 @@ body {
                 font-size: 16px;
                 margin-top: 102px;
                 margin-right: -29px;
+            }
+            @media (min-width: 960px) {
+                font-size: 16px;
+                margin-top: 82px;
+                margin-right: 10px;
             }
             @media (min-width: 1440px) {
                 font-size: 15px;

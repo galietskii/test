@@ -141,8 +141,9 @@ body {
 }
 @media (min-width: 960px) {
   .header__left {
-    padding-left: 98px;
+    padding-left: 86px;
     width: 48%;
+    padding-top: 28px;
   }
 }
 @media (min-width: 1440px) {
@@ -188,7 +189,8 @@ body {
 }
 @media (min-width: 960px) {
   .header__left h1 {
-    font-size: 48px;
+    font-size: 47px;
+    margin-top: 80px;
   }
 }
 @media (min-width: 1440px) {
@@ -235,7 +237,7 @@ body {
 }
 @media (min-width: 960px) {
   .header__left-menus {
-    padding-top: 118px;
+    padding-top: 165px;
   }
 }
 .header__left-icons {
@@ -245,6 +247,11 @@ body {
 @media (min-width: 768px) {
   .header__left-icons {
     margin-left: -25px;
+  }
+}
+@media (min-width: 960px) {
+  .header__left-icons {
+    margin-left: -24px;
   }
 }
 .header__left-icons img {
@@ -262,6 +269,11 @@ body {
 @media (min-width: 768px) {
   .header__left .active {
     display: inline-block;
+  }
+}
+@media (min-width: 960px) {
+  .header__left .active {
+    margin-right: 79px;
   }
 }
 .header__left .active::after {
@@ -282,7 +294,7 @@ body {
 }
 @media (min-width: 960px) {
   .header__right {
-    width: 26%;
+    width: 23%;
   }
 }
 @media (min-width: 1440px) {
@@ -305,6 +317,12 @@ body {
     margin-left: 40%;
   }
 }
+@media (min-width: 960px) {
+  .header__right-icon {
+    margin-left: 34%;
+    width: 54px;
+  }
+}
 .header__right-text {
   font-weight: normal;
   font-size: 14px;
@@ -319,6 +337,13 @@ body {
     font-size: 16px;
     margin-top: 177px;
     margin-right: -49px;
+  }
+}
+@media (min-width: 960px) {
+  .header__right-text {
+    font-size: 16px;
+    margin-top: 238px;
+    margin-right: -11px;
   }
 }
 @media (min-width: 1440px) {
@@ -340,6 +365,13 @@ body {
     font-size: 16px;
     margin-top: 102px;
     margin-right: -29px;
+  }
+}
+@media (min-width: 960px) {
+  .header__right-year {
+    font-size: 16px;
+    margin-top: 82px;
+    margin-right: 10px;
   }
 }
 @media (min-width: 1440px) {
