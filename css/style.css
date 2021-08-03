@@ -108,6 +108,20 @@ body {
     background-size: contain;
   }
 }
+@media (min-width: 1440px) {
+  .header {
+    background: url(../images/Virna_oblojka_home1440.png) no-repeat;
+    background-position: top;
+    background-size: contain;
+  }
+}
+@media (min-width: 1921px) {
+  .header {
+    background: url(../images/Virna_oblojka_home1921.jpg) no-repeat;
+    background-position: top;
+    background-size: contain;
+  }
+}
 .header__flex {
   display: flex;
   justify-content: space-between;
@@ -129,6 +143,18 @@ body {
   .header__left {
     padding-left: 98px;
     width: 48%;
+  }
+}
+@media (min-width: 1440px) {
+  .header__left {
+    padding-left: 139px;
+    width: 50%;
+  }
+}
+@media (min-width: 1921px) {
+  .header__left {
+    padding-left: 255px;
+    width: 47%;
   }
 }
 .header__left-logo {
@@ -163,6 +189,11 @@ body {
 @media (min-width: 960px) {
   .header__left h1 {
     font-size: 48px;
+  }
+}
+@media (min-width: 1440px) {
+  .header__left h1 {
+    font-size: 71px;
   }
 }
 .header__left-clothing {
@@ -254,6 +285,18 @@ body {
     width: 26%;
   }
 }
+@media (min-width: 1440px) {
+  .header__right {
+    width: 31%;
+    padding-right: 139px;
+  }
+}
+@media (min-width: 1921px) {
+  .header__right {
+    width: 37%;
+    padding-right: 255px;
+  }
+}
 .header__right-icon {
   margin-left: 13%;
 }
@@ -278,6 +321,11 @@ body {
     margin-right: -49px;
   }
 }
+@media (min-width: 1440px) {
+  .header__right-text {
+    font-size: 15px;
+  }
+}
 .header__right-year {
   font-weight: 500;
   font-size: 14px;
@@ -292,6 +340,11 @@ body {
     font-size: 16px;
     margin-top: 102px;
     margin-right: -29px;
+  }
+}
+@media (min-width: 1440px) {
+  .header__right-year {
+    font-size: 15px;
   }
 }
 .header__right__select {

@@ -20,6 +20,16 @@ body {
         background-position: top;
         background-size: contain;
     }
+    @media (min-width: 1440px){
+        background: url(../images/Virna_oblojka_home1440.png) no-repeat;
+        background-position: top;
+        background-size: contain;
+    }
+    @media (min-width: 1921px){
+        background: url(../images/Virna_oblojka_home1921.jpg) no-repeat;
+        background-position: top;
+        background-size: contain;
+    }
     &__flex {
         display: flex;
         justify-content: space-between;
@@ -37,6 +47,14 @@ body {
         @media (min-width: 960px) {
             padding-left: 98px;
             width: 48%;
+        }
+        @media (min-width: 1440px) {
+            padding-left: 139px;
+            width: 50%;
+        }
+        @media (min-width: 1921px) {
+            padding-left: 255px;
+            width: 47%;
         }
         &-logo {
             display: none;
@@ -62,6 +80,9 @@ body {
             }
             @media (min-width: 960px) {
                 font-size: 48px;
+            }
+            @media (min-width: 1440px) {
+                font-size: 71px;
             }
         }
         &-clothing {
@@ -137,6 +158,14 @@ body {
         @media (min-width: 960px) {
             width: 26%;
         }
+        @media (min-width: 1440px) {
+            width: 31%;
+            padding-right: 139px;
+        }
+        @media (min-width: 1921px) {
+            width: 37%;
+            padding-right: 255px;
+        }
         &-icon {
             margin-left: 13%;
             @media (min-width: 768px) {
@@ -156,6 +185,9 @@ body {
                 margin-top: 177px;
                 margin-right: -49px;
             }
+            @media (min-width: 1440px) {
+                font-size: 15px;
+            }
         }
         &-year {
             font-weight: 500;
@@ -169,6 +201,9 @@ body {
                 font-size: 16px;
                 margin-top: 102px;
                 margin-right: -29px;
+            }
+            @media (min-width: 1440px) {
+                font-size: 15px;
             }
         }
         &__select {
