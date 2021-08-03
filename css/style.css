@@ -88,13 +88,17 @@
 
 body {
   margin: 0;
-  font-family: "Cera Pro";
+  font-family: "Cera Pro", sans-serif;
 }
 
 .header {
   background: url(../images/Virna_oblojka_home.jpg) no-repeat;
   background-position: center;
-  background-size: cover;
+}
+@media (min-width: 768px) {
+  .header {
+    background: url(../images/Virna_oblojka_home768.jpg) no-repeat;
+  }
 }
 .header__flex {
   display: flex;
@@ -107,10 +111,65 @@ body {
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+@media (min-width: 768px) {
+  .header__left {
+    padding-top: 30px;
+    padding-left: 39px;
+    width: 50%;
+  }
+}
+.header__left-logo {
+  display: none;
+}
+@media (min-width: 768px) {
+  .header__left-logo {
+    display: block;
+  }
+}
+.header__left h1 {
+  display: none;
+  width: 290px;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-top: 60px;
+}
+@media (min-width: 768px) {
+  .header__left h1 {
+    display: block;
+  }
+}
+.header__left-clothing {
+  display: none;
+  width: 71px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 100%;
+  text-align: right;
+  letter-spacing: 0.04em;
+  color: #000000;
+  margin-left: -24px;
+  transform: rotate(-90deg);
+}
+@media (min-width: 768px) {
+  .header__left-clothing {
+    display: inline-block;
+    margin-top: 60px;
+  }
+}
 .header__left-menus {
   display: flex;
-  padding-top: 410px;
+  padding-top: 406px;
   align-items: inherit;
+  justify-content: space-between;
+  margin-right: 9px;
+}
+@media (min-width: 768px) {
+  .header__left-menus {
+    padding-top: 60px;
+  }
 }
 .header__left-icons {
   display: flex;
@@ -126,14 +185,35 @@ body {
   line-height: 18px;
   color: #000000;
   z-index: 1;
+  margin-right: 71px;
+}
+@media (min-width: 768px) {
+  .header__left .active {
+    display: inline-block;
+  }
+}
+.header__left .active::after {
+  content: url(../images/line.svg);
+  margin-left: 2px;
+  vertical-align: top;
 }
 .header__right {
   width: 20%;
   background: #FFFFFF;
   padding-top: 34px;
 }
+@media (min-width: 768px) {
+  .header__right {
+    width: 17%;
+  }
+}
 .header__right-icon {
   margin-left: 9%;
+}
+@media (min-width: 768px) {
+  .header__right-icon {
+    margin-left: 34%;
+  }
 }
 .header__right-text {
   font-weight: normal;
@@ -142,6 +222,11 @@ body {
   color: #000000;
   transform: rotate(90deg);
   margin-top: 102px;
+}
+@media (min-width: 768px) {
+  .header__right-text {
+    font-size: 16px;
+  }
 }
 .header__right-year {
   font-weight: 500;
