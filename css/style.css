@@ -709,6 +709,7 @@ body {
 .footer__flex {
   display: flex;
   justify-content: space-between;
+  margin-top: 105px;
   padding: 0 5px;
 }
 .footer__flex-left-img {
